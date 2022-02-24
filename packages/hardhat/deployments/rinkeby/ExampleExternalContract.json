@@ -1,0 +1,75 @@
+{
+  "address": "0x2208971aFe309C4E36c74f28D8002B03d5B6E575",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "complete",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "completed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xb92bf65c1d2d0d73a74786f6c1075e3b8b1ef3b24cdac6a13a1ffd09493ca721",
+  "receipt": {
+    "to": null,
+    "from": "0x21881da2340d74E8367931361fEeF0dA18fb1911",
+    "contractAddress": "0x2208971aFe309C4E36c74f28D8002B03d5B6E575",
+    "transactionIndex": 51,
+    "gasUsed": "87977",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x26215db98b45d5d48941025b25f45ab42000c88d462cee77a7f56a53fcd38ba7",
+    "transactionHash": "0xb92bf65c1d2d0d73a74786f6c1075e3b8b1ef3b24cdac6a13a1ffd09493ca721",
+    "logs": [],
+    "blockNumber": 10222523,
+    "cumulativeGasUsed": "8880000",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "b10b04b916b9dce74963b3d2be500d44",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"complete\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"completed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ExampleExternalContract.sol\":\"ExampleExternalContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ExampleExternalContract.sol\":{\"content\":\"pragma solidity 0.8.4;\\n\\ncontract ExampleExternalContract {\\n\\n  bool public completed;\\n\\n  function complete() public payable {\\n    completed = true;\\n  }\\n\\n}\\n\",\"keccak256\":\"0x6d977fa2a76dc22011e7418840075cdf45f5ca8324302f82697a27f8b7727fd2\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060a08061001e6000396000f3fe60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe914603e575b600080fd5b603c6000805460ff19166001179055565b005b348015604957600080fd5b5060005460569060ff1681565b604051901515815260200160405180910390f3fea26469706673582212208cec33d60f32dbc7978829e5d5603d24efe4ecb1eaab13443dd07caa8218efa664736f6c63430008040033",
+  "deployedBytecode": "0x60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe914603e575b600080fd5b603c6000805460ff19166001179055565b005b348015604957600080fd5b5060005460569060ff1681565b604051901515815260200160405180910390f3fea26469706673582212208cec33d60f32dbc7978829e5d5603d24efe4ecb1eaab13443dd07caa8218efa664736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/ExampleExternalContract.sol:ExampleExternalContract",
+        "label": "completed",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
